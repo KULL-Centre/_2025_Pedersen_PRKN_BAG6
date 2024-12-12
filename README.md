@@ -5,3 +5,5 @@ Contents
 --------
 * **crispr**: Scripts and output for processing sequencing reads from the crispr screen
 * **vamp**: Scripts and output for processing sequencing reads from the VAMPseq
+
+Sequencing reads are available at https://sid.erda.dk/sharelink/BT4LyWUisj
