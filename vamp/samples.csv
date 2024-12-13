@@ -1,0 +1,23 @@
+# Input for match_and_merge.r script by kristoffer.johansson@bio.ku.dk
+# The output will be a data frame per library with a column per row in the samples section; i.e. per selection-replicate pair containting read counts per library member summed for technical replicates
+
+SETTINGS
+# Section to give pairs of options and values
+library_is_barcode,true
+
+LIBRARIES
+# Section to list libraries that samples should be matched to (if any). Include control sequences using the name 'controls'
+# Library name,Library path
+prkn_bc,barcode_map.csv
+
+SAMPLES
+# Section to list sample files. All technical replicates should be given in same row
+# Library name,Selection,Replicate,Description,Raw file 1,Raw file 2,Raw file 3,Raw file 4,Raw file 5,Raw file 6,Raw file 7,Raw file 8,More if needed
+prkn_bc,ctrl-bin1,bio1,none,../counts/B6S-H-B1-1-1_S1_L001_counts_all.txt.gz,../counts/B6S-H-B1-1-1_S1_L002_counts_all.txt.gz,../counts/B6S-H-B1-1-1_S1_L003_counts_all.txt.gz,../counts/B6S-H-B1-1-1_S1_L004_counts_all.txt.gz,../counts/B6S-H-B1-1-2_S2_L001_counts_all.txt.gz,../counts/B6S-H-B1-1-2_S2_L002_counts_all.txt.gz,../counts/B6S-H-B1-1-2_S2_L003_counts_all.txt.gz,../counts/B6S-H-B1-1-2_S2_L004_counts_all.txt.gz
+prkn_bc,ctrl-bin1,bio2,none,../counts/B6S-H-B1-2-1_S5_L001_counts_all.txt.gz,../counts/B6S-H-B1-2-1_S5_L002_counts_all.txt.gz,../counts/B6S-H-B1-2-1_S5_L003_counts_all.txt.gz,../counts/B6S-H-B1-2-1_S5_L004_counts_all.txt.gz,../counts/B6S-H-B1-2-2_S6_L001_counts_all.txt.gz,../counts/B6S-H-B1-2-2_S6_L002_counts_all.txt.gz,../counts/B6S-H-B1-2-2_S6_L003_counts_all.txt.gz,../counts/B6S-H-B1-2-2_S6_L004_counts_all.txt.gz
+prkn_bc,ctrl-bin2,bio1,none,../counts/B6S-H-B2-1-1_S3_L001_counts_all.txt.gz,../counts/B6S-H-B2-1-1_S3_L002_counts_all.txt.gz,../counts/B6S-H-B2-1-1_S3_L003_counts_all.txt.gz,../counts/B6S-H-B2-1-1_S3_L004_counts_all.txt.gz,../counts/B6S-H-B2-1-2_S4_L001_counts_all.txt.gz,../counts/B6S-H-B2-1-2_S4_L002_counts_all.txt.gz,../counts/B6S-H-B2-1-2_S4_L003_counts_all.txt.gz,../counts/B6S-H-B2-1-2_S4_L004_counts_all.txt.gz
+prkn_bc,ctrl-bin2,bio2,none,../counts/B6S-H-B2-2-1_S7_L001_counts_all.txt.gz,../counts/B6S-H-B2-2-1_S7_L002_counts_all.txt.gz,../counts/B6S-H-B2-2-1_S7_L003_counts_all.txt.gz,../counts/B6S-H-B2-2-1_S7_L004_counts_all.txt.gz,../counts/B6S-H-B2-2-2_S8_L001_counts_all.txt.gz,../counts/B6S-H-B2-2-2_S8_L002_counts_all.txt.gz,../counts/B6S-H-B2-2-2_S8_L003_counts_all.txt.gz,../counts/B6S-H-B2-2-2_S8_L004_counts_all.txt.gz
+prkn_bc,b6ko-bin1,bio1,none,../counts/B6S-B-B1-1-1_S9_L001_counts_all.txt.gz,../counts/B6S-B-B1-1-1_S9_L002_counts_all.txt.gz,../counts/B6S-B-B1-1-1_S9_L003_counts_all.txt.gz,../counts/B6S-B-B1-1-1_S9_L004_counts_all.txt.gz,../counts/B6S-B-B1-1-2_S10_L001_counts_all.txt.gz,../counts/B6S-B-B1-1-2_S10_L002_counts_all.txt.gz,../counts/B6S-B-B1-1-2_S10_L003_counts_all.txt.gz,../counts/B6S-B-B1-1-2_S10_L004_counts_all.txt.gz
+prkn_bc,b6ko-bin1,bio2,none,../counts/B6S-B-B1-2-1_S13_L001_counts_all.txt.gz,../counts/B6S-B-B1-2-1_S13_L002_counts_all.txt.gz,../counts/B6S-B-B1-2-1_S13_L003_counts_all.txt.gz,../counts/B6S-B-B1-2-1_S13_L004_counts_all.txt.gz,../counts/B6S-B-B1-2-2_S14_L001_counts_all.txt.gz,../counts/B6S-B-B1-2-2_S14_L002_counts_all.txt.gz,../counts/B6S-B-B1-2-2_S14_L003_counts_all.txt.gz,../counts/B6S-B-B1-2-2_S14_L004_counts_all.txt.gz
+prkn_bc,b6ko-bin2,bio1,none,../counts/B6S-B-B2-1-1_S11_L001_counts_all.txt.gz,../counts/B6S-B-B2-1-1_S11_L002_counts_all.txt.gz,../counts/B6S-B-B2-1-1_S11_L003_counts_all.txt.gz,../counts/B6S-B-B2-1-1_S11_L004_counts_all.txt.gz,../counts/B6S-B-B2-1-2_S12_L001_counts_all.txt.gz,../counts/B6S-B-B2-1-2_S12_L002_counts_all.txt.gz,../counts/B6S-B-B2-1-2_S12_L003_counts_all.txt.gz,../counts/B6S-B-B2-1-2_S12_L004_counts_all.txt.gz
+prkn_bc,b6ko-bin2,bio2,none,../counts/B6S-B-B2-2-1_S15_L001_counts_all.txt.gz,../counts/B6S-B-B2-2-1_S15_L002_counts_all.txt.gz,../counts/B6S-B-B2-2-1_S15_L003_counts_all.txt.gz,../counts/B6S-B-B2-2-1_S15_L004_counts_all.txt.gz,../counts/B6S-B-B2-2-2_S16_L001_counts_all.txt.gz,../counts/B6S-B-B2-2-2_S16_L002_counts_all.txt.gz,../counts/B6S-B-B2-2-2_S16_L003_counts_all.txt.gz,../counts/B6S-B-B2-2-2_S16_L004_counts_all.txt.gz

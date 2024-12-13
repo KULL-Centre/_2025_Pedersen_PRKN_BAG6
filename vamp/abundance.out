@@ -1,0 +1,88 @@
+[1] "Input counts file: counts_prkn_bc.csv"
+[1] "Aggregating read counts for 222899 of 257610 (86.5%) barcodes of single amino acid variants"
+[1] "   using  6423402 of  6897397 (93.1%) read counts for ctrl_bin1.bio1"
+[1] "   using 16197942 of 18979706 (85.3%) read counts for ctrl_bin2.bio1"
+[1] "   using 11256581 of 12066990 (93.3%) read counts for ctrl_bin1.bio2"
+[1] "   using 13742614 of 16124845 (85.2%) read counts for ctrl_bin2.bio2"
+[1] "   using  8980915 of 10024045 (89.6%) read counts for b6ko_bin1.bio1"
+[1] "   using 12964964 of 15082797 (86.0%) read counts for b6ko_bin2.bio1"
+[1] "   using  8626634 of  9367337 (92.1%) read counts for b6ko_bin1.bio2"
+[1] "   using 11710742 of 13631396 (85.9%) read counts for b6ko_bin2.bio2"
+[1] "Aggregating read counts for 10122 of 257610 (3.9%) barcodes of single nucl synonymous wild types"
+[1] "   using     8180 of  6897397 (0.1%) read counts for ctrl_bin1.bio1"
+[1] "   using   874090 of 18979706 (4.6%) read counts for ctrl_bin2.bio1"
+[1] "   using    11773 of 12066990 (0.1%) read counts for ctrl_bin1.bio2"
+[1] "   using   757753 of 16124845 (4.7%) read counts for ctrl_bin2.bio2"
+[1] "   using   155062 of 10024045 (1.5%) read counts for b6ko_bin1.bio1"
+[1] "   using   653858 of 15082797 (4.3%) read counts for b6ko_bin2.bio1"
+[1] "   using    29005 of  9367337 (0.3%) read counts for b6ko_bin1.bio2"
+[1] "   using   580766 of 13631396 (4.3%) read counts for b6ko_bin2.bio2"
+[1] "Aggregating read counts for 15974 of 257610 (6.2%) barcodes of wild type (DNA level)"
+[1] "   using    12543 of  6897397 (0.2%) read counts for ctrl_bin1.bio1"
+[1] "   using  1394015 of 18979706 (7.3%) read counts for ctrl_bin2.bio1"
+[1] "   using    21789 of 12066990 (0.2%) read counts for ctrl_bin1.bio2"
+[1] "   using  1182629 of 16124845 (7.3%) read counts for ctrl_bin2.bio2"
+[1] "   using   227103 of 10024045 (2.3%) read counts for b6ko_bin1.bio1"
+[1] "   using  1006761 of 15082797 (6.7%) read counts for b6ko_bin2.bio1"
+[1] "   using    42956 of  9367337 (0.5%) read counts for b6ko_bin1.bio2"
+[1] "   using   927272 of 13631396 (6.8%) read counts for b6ko_bin2.bio2"
+[1] "Collected data for 9642 substitutions using 248995 barcodes (96.7%)"
+[1] "Calculate PSI for ctrl_bio1"
+[1] "    Calc. PSI for ctrl_bio1 using indices 1,2 and populations 0.17,0.83"
+[1] "    Removing 40 PSI scores with less than 50 total reads"
+[1] "Calculate PSI for ctrl_bio2"
+[1] "    Calc. PSI for ctrl_bio2 using indices 1,2 and populations 0.17,0.83"
+[1] "    Removing 35 PSI scores with less than 50 total reads"
+[1] "Calculate PSI for b6ko_bio1"
+[1] "    Calc. PSI for b6ko_bio1 using indices 1,2 and populations 0.05,0.95"
+[1] "    Removing 44 PSI scores with less than 50 total reads"
+[1] "Calculate PSI for b6ko_bio2"
+[1] "    Calc. PSI for b6ko_bio2 using indices 1,2 and populations 0.05,0.95"
+[1] "    Removing 65 PSI scores with less than 50 total reads"
+[1] "Data has 9616 delta_PSI measurements,  8738 of 8835 (98.9%) single variants"
+[1] "  For ctrl cells,  462 (99.4%) nonsense, 417 (89.7%) synonymous and WT"
+[1] "  For bag6 cells,  462 (99.4%) nonsense, 417 (89.7%) synonymous and WT"
+[1] "Final score set has 9636 variants, incl. 20 with one celltype missing, 462 nonsense and 419 synonymous)"
+[1] ""
+$file
+[1] "counts_prkn_bc.csv"
+
+$bio_reps
+$bio_reps$ctrl
+[1] "bio1" "bio2"
+
+$bio_reps$b6ko
+[1] "bio1" "bio2"
+
+
+$n_facs_bins
+[1] 2
+
+$idx_facs_bins
+[1] 1 2
+
+$pop_facs_bins
+$pop_facs_bins$ctrl
+[1] 0.17 0.83
+
+$pop_facs_bins$b6ko
+[1] 0.05 0.95
+
+
+$min_rep
+[1] 1
+
+$pseudocounts
+[1] 1
+
+$threshold_counts_per_rep
+[1] 50
+
+quartz 
+     2 
+quartz 
+     2 
+quartz 
+     2 
+quartz 
+     2 
