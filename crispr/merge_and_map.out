@@ -1,0 +1,39 @@
+[1] "Args: samples.csv 5-Lower_S4_L001_counts.txt 5-Lower_S4_L002_counts.txt 5-Lower_S4_L003_counts.txt 5-Lower_S4_L004_counts.txt 5-Upper_S3_L001_counts.txt 5-Upper_S3_L002_counts.txt 5-Upper_S3_L003_counts.txt 5-Upper_S3_L004_counts.txt T0_S1_L001_counts.txt T0_S1_L002_counts.txt T0_S1_L003_counts.txt T0_S1_L004_counts.txt T12-No-Facs_S2_L001_counts.txt T12-No-Facs_S2_L002_counts.txt T12-No-Facs_S2_L003_counts.txt T12-No-Facs_S2_L004_counts.txt"
+[1] "Mapped 6107345 out of 6974644 raw counts (87.56%) from 5-Lower_S4_L001"
+[1] "Mapped 6012425 out of 6862182 raw counts (87.62%) from 5-Lower_S4_L002"
+[1] "Mapped 5983376 out of 6889033 raw counts (86.85%) from 5-Lower_S4_L003"
+[1] "Mapped 6011204 out of 6886773 raw counts (87.29%) from 5-Lower_S4_L004"
+[1] "Mapped 5719497 out of 6488104 raw counts (88.15%) from 5-Upper_S3_L001"
+[1] "Mapped 5627599 out of 6377211 raw counts (88.25%) from 5-Upper_S3_L002"
+[1] "Mapped 5607437 out of 6416131 raw counts (87.40%) from 5-Upper_S3_L003"
+[1] "Mapped 5648887 out of 6429237 raw counts (87.86%) from 5-Upper_S3_L004"
+[1] "Mapped 3597574 out of 4069472 raw counts (88.40%) from T0_S1_L001"
+[1] "Mapped 3205742 out of 3632206 raw counts (88.26%) from T0_S1_L002"
+[1] "Mapped 3134425 out of 3586130 raw counts (87.40%) from T0_S1_L003"
+[1] "Mapped 3233037 out of 3677700 raw counts (87.91%) from T0_S1_L004"
+[1] "Mapped 4138665 out of 4699760 raw counts (88.06%) from T12-No-Facs_S2_L001"
+[1] "Mapped 3651037 out of 4158247 raw counts (87.80%) from T12-No-Facs_S2_L002"
+[1] "Mapped 3581604 out of 4113446 raw counts (87.07%) from T12-No-Facs_S2_L003"
+[1] "Mapped 3687064 out of 4210728 raw counts (87.56%) from T12-No-Facs_S2_L004"
+[1] "Merging 4 lanes into 5-Lower_S4"
+[1] "  average pearson 0.967, range 0.967-0.968"
+[1] "Merging 4 lanes into 5-Upper_S3"
+[1] "  average pearson 0.964, range 0.964-0.965"
+[1] "Merging 4 lanes into T0_S1"
+[1] "  average pearson 0.913, range 0.910-0.916"
+[1] "Merging 4 lanes into T12-No-Facs_S2"
+[1] "  average pearson 0.901, range 0.898-0.904"
+[1] ""
+[1] "Read counts summary"
+          sample coverage ctrl_cover      all   mapped controls unmapped unmapped_bad_len
+1     5-Lower_S4    98.51      96.48 27612632 24114350   121356   384798                0
+2     5-Upper_S3    98.08      93.66 25710683 22603420    35450   349434                0
+3          T0_S1    98.40      95.77 14965508 13170778    23787    28445                0
+4 T12-No-Facs_S2    98.95      97.18 17182181 15058370    21434    16416                0
+[1] ""
+[1] "Read percent summary"
+          sample coverage ctrl_cover      all mapped controls unmapped unmapped_bad_len
+1     5-Lower_S4    98.51      96.48 27612632  87.33   0.4395  1.39356                0
+2     5-Upper_S3    98.08      93.66 25710683  87.91   0.1379  1.35910                0
+3          T0_S1    98.40      95.77 14965508  88.01   0.1589  0.19007                0
+4 T12-No-Facs_S2    98.95      97.18 17182181  87.64   0.1247  0.09554                0
